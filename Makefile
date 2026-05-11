@@ -28,7 +28,7 @@ LD_FLAGS := -ldflags "-s -w \
 
 # Docker parameters
 DOCKER_IMAGE := traefik
-DOCKER_TAG   ?= latest
+DOCKER_TAG   ?= dev-local
 
 ## all: Build the binary (default target)
 all: build
